@@ -1,0 +1,6 @@
+.vscode
+*.dSYM
+fs
+*.o
+createfs_macos
+showfs_macos
