@@ -1,0 +1,5 @@
+Parent locked
+Child attempts to lock
+Parent unlocked
+The lock must be free!
+All CPUs suspended.  Exiting.

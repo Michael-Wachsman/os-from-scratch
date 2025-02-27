@@ -1,0 +1,13 @@
+Created thread 1
+Created thread 2
+Thread 1 tries to lock
+Thread 1 prints with the lock!
+Thread 2 tries to lock
+Created thread 3
+Thread 1 unlocks
+Thread 3 tries to lock
+Thread 2 prints with the lock!
+Thread 2 unlocks
+Thread 3 prints with the lock!
+Thread 3 unlocks
+All CPUs suspended.  Exiting.

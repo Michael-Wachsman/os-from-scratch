@@ -1,0 +1,16 @@
+Thread 1 join
+Thread 2 join
+Start multicrement j
+End multicrement j = 1024
+Start increment i
+End increment i = 1000
+Start decrement i
+End decrement i
+995 1024
+Start decrement i
+End decrement i
+Start decrement i
+End decrement i
+Start decrement i
+End decrement i
+All CPUs suspended.  Exiting.

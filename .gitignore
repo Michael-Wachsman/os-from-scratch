@@ -4,3 +4,16 @@ fs
 *.o
 createfs_macos
 showfs_macos
+
+thread_library/libcpu_macos.o
+thread_library/.vscode
+thread_library/app*
+thread_library/cpu.o
+thread_library/cv.o
+thread_library/libthread.o
+thread_library/mutex.o
+thread_library/thread.o
+thread_library/managed_uc.o
+thread_library/*.dSYM/*
+thread_library/core
+thread_library/test-*

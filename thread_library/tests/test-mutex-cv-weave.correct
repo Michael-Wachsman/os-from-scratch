@@ -1,0 +1,14 @@
+parent called with arg 5
+Thread 1 created
+Thread 2 created
+odd says1
+even says0
+odd says3
+even says2
+odd says5
+even says4
+odd says7
+even says6
+odd says9
+even says8
+All CPUs suspended.  Exiting.

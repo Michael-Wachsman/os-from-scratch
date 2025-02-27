@@ -1,0 +1,23 @@
+Hi guys, I just booted
+About to free funny lock
+Hi guys, Funny is about to wait till my join queue is full
+Fancy: 1
+Fancy: 2
+Fancy: 3
+Funky: 1
+Fancy: 5
+Fancy: 6
+Just freed funny lock
+Funny join queue is full, time to empty
+Fancy: 1 is free, now to wait.
+Fancy: 2 is free, now to wait.
+Fancy: 3 is free, now to wait.
+Funky is about to free all fancy 
+Fancy: 5 is free, now to wait.
+Fancy: 5 is now done waiting.
+Fancy: 6 is free, now to wait.
+Fancy: 6 is now done waiting.
+Fancy: 1 is now done waiting.
+Fancy: 2 is now done waiting.
+Fancy: 3 is now done waiting.
+All CPUs suspended.  Exiting.

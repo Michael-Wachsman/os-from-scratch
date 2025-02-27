@@ -1,0 +1,99 @@
+[33mConsumer1 attempts to grab lock[0m
+[36mConsumer1 grabs lock[0m
+Consumer1 relinquishes lock
+[33mProducer1 attempts to grab lock[0m
+[36mProducer1 grabs lock[0m
+[32mProducer1 produced coke0[0m
+[33mProducer1 attempts to grab lock[0m
+[36mProducer1 grabs lock[0m
+[33mProducer2 attempts to grab lock[0m
+[33mConsumer2 attempts to grab lock[0m
+[33mProducer3 attempts to grab lock[0m
+[32mProducer1 produced coke1[0m
+[33mProducer1 attempts to grab lock[0m
+[36mProducer2 grabs lock[0m
+[32mProducer2 produced coke2[0m
+[33mProducer2 attempts to grab lock[0m
+[36mConsumer2 grabs lock[0m
+Consumer2 relinquishes lock
+[36mProducer3 grabs lock[0m
+[32mProducer3 produced coke3[0m
+[33mProducer3 attempts to grab lock[0m
+[36mConsumer1 grabs lock after waiting[0m
+Consumer1 relinquishes lock
+[36mProducer1 grabs lock[0m
+[32mProducer1 produced coke4[0m
+[33mProducer1 attempts to grab lock[0m
+[36mProducer2 grabs lock[0m
+[32mProducer2 produced coke5[0m
+[33mProducer2 attempts to grab lock[0m
+[36mProducer3 grabs lock[0m
+[32mProducer3 produced coke6[0m
+[33mProducer3 attempts to grab lock[0m
+[36mConsumer2 grabs lock after waiting[0m
+Consumer2 relinquishes lock
+[36mProducer1 grabs lock[0m
+[32mProducer1 produced coke7[0m
+[33mProducer1 attempts to grab lock[0m
+[36mConsumer1 grabs lock after waiting[0m
+Consumer1 relinquishes lock
+[36mProducer2 grabs lock[0m
+[32mProducer2 produced coke8[0m
+[33mProducer2 attempts to grab lock[0m
+[36mProducer3 grabs lock[0m
+[32mProducer3 produced coke9[0m
+[33mProducer3 attempts to grab lock[0m
+[36mProducer1 grabs lock[0m
+Producer1 waiting for coke to be consumed
+[36mConsumer2 grabs lock after waiting[0m
+[31mConsumer2 consumed coke0[0m
+[33mConsumer2 attempts to grab lock[0m
+[36mProducer2 grabs lock[0m
+[32mProducer2 produced coke10[0m
+[33mProducer2 attempts to grab lock[0m
+[36mConsumer1 grabs lock after waiting[0m
+[31mConsumer1 consumed coke1[0m
+[33mConsumer1 attempts to grab lock[0m
+[36mProducer3 grabs lock[0m
+[32mProducer3 produced coke11[0m
+[33mProducer3 attempts to grab lock[0m
+[36mConsumer2 grabs lock[0m
+[31mConsumer2 consumed coke2[0m
+[33mConsumer2 attempts to grab lock[0m
+[32mProducer1 produced coke12[0m
+Producer1 done
+[36mProducer2 grabs lock[0m
+Producer2 waiting for coke to be consumed
+[36mConsumer1 grabs lock[0m
+[31mConsumer1 consumed coke3[0m
+[33mConsumer1 attempts to grab lock[0m
+[36mProducer3 grabs lock[0m
+[32mProducer3 produced coke13[0m
+Producer3 done
+[36mConsumer2 grabs lock[0m
+[31mConsumer2 consumed coke4[0m
+[33mConsumer2 attempts to grab lock[0m
+[36mConsumer1 grabs lock[0m
+Consumer1 relinquishes lock
+[32mProducer2 produced coke14[0m
+Producer2 done
+[36mConsumer2 grabs lock[0m
+[31mConsumer2 consumed coke5[0m
+[35mConsumer2 noticed producers stopped[0m
+[33mConsumer2 tries to grab lock in phase 2[0m
+[36mConsumer1 grabs lock after waiting[0m
+[31mConsumer1 consumed coke6[0m
+[35mConsumer1 noticed producers stopped[0m
+[33mConsumer1 tries to grab lock in phase 2[0m
+[36mConsumer2 grabbed lock
+[0m[31mConsumer2 consumed coke7 in phase 2[0m
+[31mConsumer2 consumed coke8 in phase 2[0m
+[36mConsumer1 grabbed lock
+[0m[31mConsumer1 consumed coke9 in phase 2[0m
+[31mConsumer1 consumed coke10 in phase 2[0m
+[31mConsumer1 consumed coke11 in phase 2[0m
+[31mConsumer1 consumed coke12 in phase 2[0m
+[31mConsumer1 consumed coke13 in phase 2[0m
+[31mConsumer1 consumed coke14 in phase 2[0m
+Consumer1 done
+All CPUs suspended.  Exiting.
