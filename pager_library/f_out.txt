@@ -1,0 +1,251 @@
+Pager started with 4 physical memory pages
+vm_create	(75157, 75165)
+vm_create returned 0
+vm_switch	(75165)
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75168)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75169)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75170)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75171)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75172)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75173)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75174)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75175)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75176)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75177)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75178)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75179)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75180)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75181)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75182)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75183)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75184)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75185)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75186)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_create	(75165, 75187)
+vm_create returned 0
+					returning to (75165) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75165) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75168)
+					returning to (75168) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75168) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75169)
+					returning to (75169) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75169) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75170)
+					returning to (75170) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75170) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75171)
+					returning to (75171) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75171) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75172)
+					returning to (75172) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75172) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75173)
+					returning to (75173) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75173) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75174)
+					returning to (75174) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75174) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75175)
+					returning to (75175) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75175) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75176)
+					returning to (75176) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (75176) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_switch	(75177)
+					returning to (75177) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75177) with r|w pages:
+vm_switch	(75178)
+					returning to (75178) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75178) with r|w pages:
+vm_switch	(75179)
+					returning to (75179) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75179) with r|w pages:
+vm_switch	(75180)
+					returning to (75180) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75180) with r|w pages:
+vm_switch	(75181)
+					returning to (75181) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75181) with r|w pages:
+vm_switch	(75182)
+					returning to (75182) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75182) with r|w pages:
+vm_switch	(75183)
+					returning to (75183) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75183) with r|w pages:
+vm_switch	(75184)
+					returning to (75184) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75184) with r|w pages:
+vm_switch	(75185)
+					returning to (75185) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75185) with r|w pages:
+vm_switch	(75186)
+					returning to (75186) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75186) with r|w pages:
+vm_switch	(75187)
+					returning to (75187) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x0
+					returning to (75187) with r|w pages:
+vm_switch	(75165)
+					returning to (75165) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75168)
+					returning to (75168) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75169)
+					returning to (75169) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75170)
+					returning to (75170) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75171)
+					returning to (75171) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75172)
+					returning to (75172) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75173)
+					returning to (75173) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75174)
+					returning to (75174) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75175)
+					returning to (75175) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75176)
+					returning to (75176) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_destroy
+vm_switch	(75177)
+					returning to (75177) with r|w pages:
+vm_destroy
+vm_switch	(75178)
+					returning to (75178) with r|w pages:
+vm_destroy
+vm_switch	(75179)
+					returning to (75179) with r|w pages:
+vm_destroy
+vm_switch	(75180)
+					returning to (75180) with r|w pages:
+vm_destroy
+vm_switch	(75181)
+					returning to (75181) with r|w pages:
+vm_destroy
+vm_switch	(75182)
+					returning to (75182) with r|w pages:
+vm_destroy
+vm_switch	(75183)
+					returning to (75183) with r|w pages:
+vm_destroy
+vm_switch	(75184)
+					returning to (75184) with r|w pages:
+vm_destroy
+vm_switch	(75185)
+					returning to (75185) with r|w pages:
+vm_destroy
+vm_switch	(75186)
+					returning to (75186) with r|w pages:
+vm_destroy
+vm_switch	(75187)
+					returning to (75187) with r|w pages:
+vm_destroy

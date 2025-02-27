@@ -1,0 +1,26 @@
+Pager started with 4 physical memory pages
+vm_create	(10570, 10578)
+vm_create returned 0
+vm_switch	(10578)
+					returning to (10578) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (10578) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_fault	(0x600000000, write)
+vm_fault returned 0
+					returning to (10578) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+vm_create	(10578, 10579)
+vm_create returned 0
+					returning to (10578) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+vm_fault	(0x600000008, write)
+vm_fault returned 0
+					returning to (10578) with r|w pages:
+					rw	vpage 0x60000	ppage 0x2
+vm_destroy
+vm_switch	(10579)
+					returning to (10579) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+vm_destroy

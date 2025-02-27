@@ -17,3 +17,16 @@ thread_library/managed_uc.o
 thread_library/*.dSYM/*
 thread_library/core
 thread_library/test-*
+
+pager_library/pager
+pager_library/vm_pager.o
+pager_library/.vscode
+pager_library/*.dSYM
+pager_library/test*.[0-9]*
+pager_library/!test*.[0-9]*.cpp
+pager_library/!test*.[0-9]*.correct
+pager_library/Page.o
+pager_library/.DS_store
+pager_library/*.out
+
+remover.sh

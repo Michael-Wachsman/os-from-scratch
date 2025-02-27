@@ -1,0 +1,930 @@
+Pager started with 12 physical memory pages
+vm_create	(79811, 79819)
+vm_create returned 0
+vm_switch	(79819)
+					returning to (79819) with r|w pages:
+vm_map		(0x0, 0)
+vm_map returned 0x600000000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x0
+vm_fault	(0x600000000, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+vm_map		(0x0, 0)
+vm_map returned 0x600010000
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x0
+vm_fault	(0x600010000, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60001	ppage 0x2
+vm_map		(0x0, 0)
+vm_map returned 0x600020000
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x0
+vm_fault	(0x600020000, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60001	ppage 0x2
+					rw	vpage 0x60002	ppage 0x3
+vm_map		(0x0, 0)
+vm_map returned 0x600030000
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60001	ppage 0x2
+					rw	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x0
+vm_fault	(0x600030000, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60001	ppage 0x2
+					rw	vpage 0x60002	ppage 0x3
+					rw	vpage 0x60003	ppage 0x4
+vm_map		(0x600030000, 0)
+vm_map returned 0x600040000
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60001	ppage 0x2
+					rw	vpage 0x60002	ppage 0x3
+					rw	vpage 0x60003	ppage 0x4
+vm_fault	(0x600040000, write)
+file_read	(data1.bin, 0)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60001	ppage 0x2
+					rw	vpage 0x60002	ppage 0x3
+					rw	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+vm_create	(79819, 79820)
+vm_create returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+vm_map		(0x0, 0)
+vm_map returned 0x600050000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x0
+vm_switch	(79820)
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+vm_map		(0x0, 0)
+vm_map returned 0x600050000
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x0
+vm_switch	(79819)
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x0
+vm_fault	(0x600050002, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x6
+vm_map		(0x600000000, 2)
+vm_map returned 0x600060000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x6
+vm_fault	(0x600060009, write)
+file_read	(data2.bin, 2)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+vm_map		(0x0, 0)
+vm_map returned 0x600070000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0x0
+vm_fault	(0x60007000e, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					rw	vpage 0x60007	ppage 0x8
+vm_create	(79819, 79821)
+vm_create returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0x8
+vm_map		(0x0, 0)
+vm_map returned 0x600080000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0x8
+					r	vpage 0x60008	ppage 0x0
+vm_switch	(79820)
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x0
+vm_fault	(0x600050002, write)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x9
+vm_map		(0x600000000, 2)
+vm_map returned 0x600060000
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x9
+					rw	vpage 0x60006	ppage 0x7
+vm_map		(0x0, 0)
+vm_map returned 0x600070000
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x9
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0x0
+vm_fault	(0x60007000e, write)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					rw	vpage 0x60005	ppage 0x9
+					rw	vpage 0x60006	ppage 0x7
+					rw	vpage 0x60007	ppage 0xa
+vm_create	(79820, 79822)
+vm_create returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x9
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0xa
+vm_map		(0x0, 0)
+vm_map returned 0x600080000
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x9
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0xa
+					r	vpage 0x60008	ppage 0x0
+vm_switch	(79821)
+					returning to (79821) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0x8
+vm_map		(0x0, 0)
+vm_map returned 0x600080000
+					returning to (79821) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0x8
+					r	vpage 0x60008	ppage 0x0
+vm_switch	(79819)
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0x8
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600070016, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60001	ppage 0x2
+					r	vpage 0x60002	ppage 0x3
+					r	vpage 0x60003	ppage 0x4
+					rw	vpage 0x60004	ppage 0x5
+					r	vpage 0x60005	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					rw	vpage 0x60007	ppage 0xb
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600050018, write)
+file_write	(<swap>, 0)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60005	ppage 0x1
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600060021, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60008	ppage 0x0
+vm_map		(0x600000000, 12)
+file_write	(<swap>, 1)
+file_read	(<swap>, 0)
+vm_map returned 0x600090000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60008	ppage 0x0
+vm_map		(0x0, 0)
+vm_map returned 0x6000a0000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60008	ppage 0x0
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x60009002d, write)
+file_write	(<swap>, 2)
+file_read	(data2.bin, 12)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60008	ppage 0x0
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x600070022, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					rw	vpage 0x60007	ppage 0xb
+					r	vpage 0x60008	ppage 0x0
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x600080024, write)
+file_write	(<swap>, 3)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					rw	vpage 0x60007	ppage 0xb
+					rw	vpage 0x60008	ppage 0x4
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x6000a0001, write)
+file_write	(data1.bin, 0)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					rw	vpage 0x60007	ppage 0xb
+					rw	vpage 0x60008	ppage 0x4
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0x5
+vm_fault	(0x600040000, read)
+file_write	(<swap>, 8)
+file_read	(data1.bin, 0)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					r	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					rw	vpage 0x60007	ppage 0xb
+					rw	vpage 0x60008	ppage 0x4
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0x5
+vm_fault	(0x600040000, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					rw	vpage 0x60007	ppage 0xb
+					rw	vpage 0x60008	ppage 0x4
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0x5
+vm_create	(79819, 79823)
+vm_create returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					r	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0xb
+					r	vpage 0x60008	ppage 0x4
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x5
+vm_map		(0x0, 0)
+vm_map returned 0x6000b0000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					r	vpage 0x60005	ppage 0x1
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60007	ppage 0xb
+					r	vpage 0x60008	ppage 0x4
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x5
+					r	vpage 0x6000b	ppage 0x0
+vm_switch	(79822)
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+vm_map		(0x0, 0)
+vm_map returned 0x600080000
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60008	ppage 0x0
+vm_switch	(79820)
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60006	ppage 0x7
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600070016, write)
+file_write	(<swap>, 10)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60007	ppage 0x8
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600050018, write)
+file_write	(data2.bin, 2)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60007	ppage 0x8
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600060021, write)
+file_write	(<swap>, 9)
+file_read	(data2.bin, 2)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60008	ppage 0x0
+vm_map		(0x600000000, 12)
+vm_map returned 0x600090000
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60008	ppage 0x0
+vm_map		(0x0, 0)
+vm_map returned 0x6000a0000
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60008	ppage 0x0
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x60009002d, write)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60008	ppage 0x0
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x600070022, write)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x8
+					r	vpage 0x60008	ppage 0x0
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x600080024, write)
+file_write	(<swap>, 18)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x8
+					rw	vpage 0x60008	ppage 0xa
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x6000a0001, write)
+file_write	(<swap>, 11)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x8
+					rw	vpage 0x60008	ppage 0xa
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0xb
+vm_fault	(0x600040000, read)
+vm_fault returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x8
+					rw	vpage 0x60008	ppage 0xa
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0xb
+vm_create	(79820, 79824)
+vm_create returned 0
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					r	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60007	ppage 0x8
+					r	vpage 0x60008	ppage 0xa
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0xb
+vm_map		(0x0, 0)
+vm_map returned 0x6000b0000
+					returning to (79820) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					r	vpage 0x60005	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60007	ppage 0x8
+					r	vpage 0x60008	ppage 0xa
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0xb
+					r	vpage 0x6000b	ppage 0x0
+vm_switch	(79821)
+					returning to (79821) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600070016, write)
+file_write	(<swap>, 12)
+file_read	(<swap>, 10)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600050018, write)
+file_write	(<swap>, 17)
+file_read	(<swap>, 8)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					r	vpage 0x60008	ppage 0x0
+vm_map		(0x600000000, 12)
+vm_map returned 0x600090000
+					returning to (79821) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					r	vpage 0x60008	ppage 0x0
+vm_map		(0x0, 0)
+vm_map returned 0x6000a0000
+					returning to (79821) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					r	vpage 0x60008	ppage 0x0
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x60009002d, write)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					r	vpage 0x60008	ppage 0x0
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x600080024, write)
+file_write	(<swap>, 27)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					r	vpage 0x60000	ppage 0x2
+					rw	vpage 0x60004	ppage 0x6
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					rw	vpage 0x60008	ppage 0x5
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x6000a0001, write)
+file_write	(data1.bin, 0)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x6000a	ppage 0x6
+vm_fault	(0x600050003, write)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x6000a	ppage 0x6
+vm_fault	(0x600070005, write)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60007	ppage 0x1
+					rw	vpage 0x6000a	ppage 0x6
+vm_fault	(0x600080007, write)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60007	ppage 0x1
+					rw	vpage 0x60008	ppage 0x5
+					rw	vpage 0x6000a	ppage 0x6
+vm_fault	(0x600090039, write)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60007	ppage 0x1
+					rw	vpage 0x60008	ppage 0x5
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0x6
+vm_fault	(0x60006003c, write)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					rw	vpage 0x60008	ppage 0x5
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0x6
+vm_fault	(0x600040000, read)
+file_write	(<swap>, 20)
+file_read	(data1.bin, 0)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					r	vpage 0x60004	ppage 0x7
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					rw	vpage 0x60008	ppage 0x5
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0x6
+vm_fault	(0x600040000, write)
+vm_fault returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60004	ppage 0x7
+					rw	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60007	ppage 0x1
+					rw	vpage 0x60008	ppage 0x5
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000a	ppage 0x6
+vm_create	(79821, 79825)
+vm_create returned 0
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60004	ppage 0x7
+					r	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60007	ppage 0x1
+					r	vpage 0x60008	ppage 0x5
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x6
+vm_map		(0x0, 0)
+vm_map returned 0x6000b0000
+					returning to (79821) with r|w pages:
+					rw	vpage 0x60004	ppage 0x7
+					r	vpage 0x60005	ppage 0x4
+					rw	vpage 0x60006	ppage 0x9
+					r	vpage 0x60007	ppage 0x1
+					r	vpage 0x60008	ppage 0x5
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000a	ppage 0x6
+					r	vpage 0x6000b	ppage 0x0
+vm_switch	(79823)
+					returning to (79823) with r|w pages:
+					rw	vpage 0x60004	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60009	ppage 0x3
+vm_map		(0x0, 0)
+vm_map returned 0x6000b0000
+					returning to (79823) with r|w pages:
+					rw	vpage 0x60004	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000b	ppage 0x0
+vm_switch	(79819)
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60004	ppage 0x7
+					rw	vpage 0x60006	ppage 0x9
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000b	ppage 0x0
+vm_fault	(0x600080005, write)
+file_write	(<swap>, 19)
+file_read	(<swap>, 17)
+file_write	(<swap>, 25)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60004	ppage 0x7
+					rw	vpage 0x60008	ppage 0xa
+					rw	vpage 0x60009	ppage 0x3
+					r	vpage 0x6000b	ppage 0x0
+vm_fault	(0x6000b0007, write)
+file_write	(<swap>, 38)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60004	ppage 0x7
+					rw	vpage 0x60008	ppage 0xa
+					rw	vpage 0x60009	ppage 0x3
+					rw	vpage 0x6000b	ppage 0xb
+vm_fault	(0x600070009, write)
+file_read	(<swap>, 11)
+file_write	(data2.bin, 2)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60007	ppage 0x9
+					rw	vpage 0x60008	ppage 0xa
+					rw	vpage 0x6000b	ppage 0xb
+vm_map		(0x600000000, 22)
+file_write	(<swap>, 10)
+file_read	(<swap>, 0)
+vm_map returned 0x6000c0000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60007	ppage 0x9
+vm_fault	(0x600090045, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60007	ppage 0x9
+					rw	vpage 0x60009	ppage 0x3
+vm_fault	(0x600060048, write)
+file_write	(<swap>, 8)
+file_read	(data2.bin, 2)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x9
+vm_map		(0x0, 0)
+vm_map returned 0x6000d0000
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x9
+					r	vpage 0x6000d	ppage 0x0
+vm_fault	(0x6000b000f, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x9
+					rw	vpage 0x6000b	ppage 0xb
+					r	vpage 0x6000d	ppage 0x0
+vm_fault	(0x6000a0011, write)
+file_write	(<swap>, 26)
+file_read	(<swap>, 27)
+file_write	(<swap>, 48)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x9
+					rw	vpage 0x6000a	ppage 0x6
+					rw	vpage 0x6000b	ppage 0xb
+					r	vpage 0x6000d	ppage 0x0
+vm_fault	(0x600080013, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x9
+					rw	vpage 0x60008	ppage 0xa
+					rw	vpage 0x6000a	ppage 0x6
+					rw	vpage 0x6000b	ppage 0xb
+					r	vpage 0x6000d	ppage 0x0
+vm_fault	(0x600050017, write)
+file_write	(data1.bin, 0)
+file_read	(<swap>, 12)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60005	ppage 0x8
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x9
+					rw	vpage 0x60008	ppage 0xa
+					rw	vpage 0x6000a	ppage 0x6
+					rw	vpage 0x6000b	ppage 0xb
+					r	vpage 0x6000d	ppage 0x0
+vm_fault	(0x6000d0019, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60005	ppage 0x8
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x6000a	ppage 0x6
+					rw	vpage 0x6000d	ppage 0x2
+vm_fault	(0x6000b001b, write)
+vm_fault returned 0
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60005	ppage 0x8
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x6000a	ppage 0x6
+					rw	vpage 0x6000b	ppage 0xb
+					rw	vpage 0x6000d	ppage 0x2
+vm_fault	(0x6000c0054, write)
+file_write	(data2.bin, 12)
+file_read	(data2.bin, 22)
+block out of range
+vm_fault returned -1
+					returning to (79819) with r|w pages:
+					rw	vpage 0x60005	ppage 0x8
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x6000a	ppage 0x6
+					rw	vpage 0x6000b	ppage 0xb
+					rw	vpage 0x6000d	ppage 0x2
+vm_destroy
+vm_switch	(79822)
+					returning to (79822) with r|w pages:
+					rw	vpage 0x60006	ppage 0x4
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600070016, write)
+file_read	(<swap>, 18)
+vm_fault returned 0
+					returning to (79822) with r|w pages:
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					r	vpage 0x60008	ppage 0x0
+vm_fault	(0x600050018, write)
+file_read	(<swap>, 9)
+vm_fault returned 0
+					returning to (79822) with r|w pages:
+					rw	vpage 0x60005	ppage 0x2
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					r	vpage 0x60008	ppage 0x0
+vm_map		(0x600000000, 12)
+vm_map returned 0x600090000
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60005	ppage 0x2
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					r	vpage 0x60008	ppage 0x0
+vm_map		(0x0, 0)
+vm_map returned 0x6000a0000
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60005	ppage 0x2
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					r	vpage 0x60008	ppage 0x0
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x60009002d, write)
+file_read	(data2.bin, 12)
+vm_fault returned 0
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60005	ppage 0x2
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					r	vpage 0x60008	ppage 0x0
+					rw	vpage 0x60009	ppage 0xb
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x600080024, write)
+vm_fault returned 0
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60005	ppage 0x2
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					rw	vpage 0x60008	ppage 0x6
+					rw	vpage 0x60009	ppage 0xb
+					r	vpage 0x6000a	ppage 0x0
+vm_fault	(0x6000a0001, write)
+vm_fault returned 0
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60005	ppage 0x2
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					rw	vpage 0x60008	ppage 0x6
+					rw	vpage 0x60009	ppage 0xb
+					rw	vpage 0x6000a	ppage 0xa
+vm_fault	(0x600040000, read)
+file_read	(data1.bin, 0)
+vm_fault returned 0
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					r	vpage 0x60004	ppage 0x9
+					rw	vpage 0x60005	ppage 0x2
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					rw	vpage 0x60008	ppage 0x6
+					rw	vpage 0x60009	ppage 0xb
+					rw	vpage 0x6000a	ppage 0xa
+vm_fault	(0x600040000, write)
+vm_fault returned 0
+					returning to (79822) with r|w pages:
+					r	vpage 0x60000	ppage 0x1
+					rw	vpage 0x60004	ppage 0x9
+					rw	vpage 0x60005	ppage 0x2
+					rw	vpage 0x60006	ppage 0x4
+					rw	vpage 0x60007	ppage 0x3
+					rw	vpage 0x60008	ppage 0x6
+					rw	vpage 0x60009	ppage 0xb
+					rw	vpage 0x6000a	ppage 0xa
